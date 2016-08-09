@@ -2,8 +2,8 @@ name: RTEST1
 account: yenchingsung
 server: shinyapps.io
 appId: 118969
-bundleId: 526496
+bundleId: 527203
 url: https://yenchingsung.shinyapps.io/RTEST1/
-when: 1470644418.90264
+when: 1470705874.03355
 asMultiple: FALSE
 asStatic: FALSE
