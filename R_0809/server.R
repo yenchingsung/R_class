@@ -19,5 +19,17 @@ shinyServer(function(input, output) {
     hist(x, breaks = bins, col = 'darkgray', border = 'white')
 
   })
+  
+  output$testPlot <- renderPlot({
+    plot(1:(input$testin))
+  })
+  
+  output$textPlot <- renderText({
+    htmlSTR1 = "<h3><font color='red'>"
+    htmlSTR2 = "</font></h3>"
+    html = paste(htmlSTR1, input$Text,sep="")
+    html = paste(html, htmlSTR2,sep="")
+    print(html)
+  })
 
 })
